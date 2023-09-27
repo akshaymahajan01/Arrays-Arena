@@ -2,7 +2,7 @@ class Solution{
   public:
     vector<int> printClosest(int arr[], int brr[], int n, int m, int x) {
         vector<int> values(2,0);
-        int i=0;
+        int i=0; 
         int j=m-1;
         int ans=INT_MAX;
         int sum=arr[0]+brr[m-1];

@@ -9,7 +9,7 @@ class Solution{
         while(i<n && j>=0)
         {
             sum=arr[i]+brr[j];
-            if(ans>abs(sum-x))                # this line tells us that yes we can go more close to the anwser 
+            if(ans>abs(sum-x))                // this line tells us that yes we can go more close to the anwser 
             {
                 ans=abs(sum-x);
                 values[0]=arr[i];
